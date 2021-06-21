@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    font-family: 'Nunito';
+}
+body {
+    height: 100vh;
+}
+
+.flexDisplay {
+    display: flex;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.centeredContent {
+    justify-content: center;
+}
+
+.alignedCenter {
+    align-items: center;
+}
+
+.navbar {
+    height: 2em;
+}
+
+.homeView {
+    height: calc(100% - 2em);
+}
+
+.buttonContainer {
+    background-color:#19191b;
+    padding: 1em;
+    border-radius: 8px;
+    color: white;
+}
+
+.changeColorButton {
+    background-color: white;
+    border: 2px solid #19191b;
+    border-radius: 4px;
+    padding: 0.5em;
+}
+
+.infoContainer {
+    width: 50%;
+    row-gap: 1em;
+
+}
+
+.spacedBetween {
+    justify-content: space-between;
+}
+
+.changeButtonContainer {
+    display: flex;
+    justify-content: center;
+}
